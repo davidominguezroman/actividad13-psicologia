@@ -1,0 +1,52 @@
+---
+title: "Esquema resumen de Procesos y Contextos Educativos"
+author: 
+  - David Domínguez Román
+  - Máster de Educación Secundaria F y Q
+  - Universidad de La Rioja
+lang: es
+tbl-cap-location: bottom
+format: 
+  pdf:
+      documentclass: article
+      papersize: a4
+      toc: true
+      number-sections: true
+      colorlinks: true
+      mainfont: Arial
+      sansfont: Arial
+      fontfamilyoptions: sfdefault
+      fontsize: 12pt
+      spacing: onehalf
+      section-numbering: true
+      linestretch: 1.5
+      whitespace: none
+      indent: true
+      geometry: 
+        - top=2.5cm
+        - bottom=2.5cm
+        - left=3cm
+        - right=3cm
+      first-line-indent:
+          size: 0.5em
+      header-includes:
+        - \setlength\parindent{0.5cm}
+        - \usepackage{indentfirst}
+        - \usepackage{setspace}
+        - \onehalfspacing
+        - \usepackage{titling}
+        - \pretitle{\begin{center}
+          \includegraphics[width=2in,height=2in]{logo.png}\LARGE\\}
+        - \posttitle{\end{center}}
+      include-in-header:
+        text: |
+          \usepackage[font=footnotesize,labelfont={bf,footnotesize}]{caption}
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+1 + 1
+```
