@@ -1,5 +1,5 @@
 ---
-title: "Esquema resumen de Procesos y Contextos Educativos"
+title: "Actividad 13 (Obligatoria)"
 author: 
   - David Domínguez Román
   - Máster de Educación Secundaria F y Q
@@ -10,7 +10,7 @@ format:
   pdf:
       documentclass: article
       papersize: a4
-      toc: true
+      # toc: true
       number-sections: true
       colorlinks: true
       mainfont: Arial
@@ -41,12 +41,98 @@ format:
       include-in-header:
         text: |
           \usepackage[font=footnotesize,labelfont={bf,footnotesize}]{caption}
+          
+      abstract: |
+        En esta actividad se han valorado diferentes adaptaciones, tanto a nivel
+        general, como alguna adaptación a exámenes y trabajos en la asignatura de 
+        física y química.
+        
 ---
 
-## Quarto
+## Disposición en el aula
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Se busca fomentar el trabajo independiente y sin distracciones, por lo que disponer las mesas en filas sería lo ideal. Esta disposición deberá permitir el libre movimiento del docente, que deberá estar más cerca de los alumnos con TDAH-I. Es importante colocar a estos lejos de ventanas y puertas, para evitar distracciones, así como tener encima de las mesas solo lo indispensable para realizar el trabajo asignado. Otra de las cosas que es bueno realizar, es colocar a los alumnos con TDAH-I junto con compañeros que sean un modelo adecuado, de tal manera que pueda ayudarlo y el alumno con TDAH-I tenga una referencia de cómo comportarse, organizarse, etc., fomentando hábitos de estudio y trabajo que minimicen los efectos del TDAH-I.
 
-```{r}
-1 + 1
-```
+## Estructuración de las lecciones
+
+Una de las formas de perder a alguien en una conversación es no mirarla. Las personas con TDAH-I pueden distraerse con facilidad, así que es importante mantener un contacto ocular y una proximidad física para asegurar su atención. Las explicaciones deben ser dinámicas, con cambios en la forma de hablar, una variedad de actividades a lo largo de la clase, etc. También es buena idea usar señales no verbales, tizas de colores para resaltar lo importante, un sistema de tutoría entre compañeros y permitir al alumno con TDAH-I que explique los conceptos a otro compañero.
+
+## Planteamiento de actividades y exámenes
+
+Para evitar un exceso de información que pueda distraer de lo importante al alumno con TDAH-I, las instrucciones de las actividades deberán ser concretas, cortas y con un lenguaje positivo. Puede pedírsele que las repita y serán elogiadas cuando se cumplan. En un inicio, actividades deberán estar diseñadas con un porcentaje de éxito elevado, para incrementar el número de actividades realizadas satisfactoriamente, y así motivar al alumno. Se le puede dejar usar auriculares o tapones para evitar estímulos que les distraigan, y se deben ajustar los tiempos para la realización de las tareas, aumentándolo progresivamente, según el alumno. Es importante tener en cuenta la edad del alumno y su competencia. Si la tarea a realizar es compleja, es mejor dividirla en varias fases, que sean cortas y secuenciales. Es recomendable pactar un número de ejercicios con el alumno: darle 5 ejercicios y que tenga que elegir 3, por ejemplo. Las actividades deberán irse alternando para evitar fatigas, y se deberán establecer descansos funcionales.
+
+Los exámenes deberán ser cortos, con uno o dos ejercicios por página. Es mucho mejor hacer pruebas cortas frecuentemente que exámenes largos cada trimestre o cada mes.
+
+## Estrategias para favorecer aprendizajes (Física y Química)
+
+En las asignaturas de ciencias los ejercicios pueden ser algo liosos en muchas ocasiones. Es muy normal que la información venga de tal manera que haya que realizar pasos previos para poder resolver el problema: me dan el % en masa y la densidad pero necesito los moles para sacar datos de una reacción química, por ejemplo. También suele ocurrir que se dé más información de la necesaria para la realización del problema: me dan la masa, la distancia al centro de la Tierra y radio de un objeto esférico que está orbitando para calcular su velocidad, pero el radio del objeto no me sirve para nada. Estos ejercicios pueden representar una dificultad para cualquiera, pero son muy importantes ya que, en la vida real, la ciencia estudia fenómenos recogiendo datos que no siempre acaban siendo útiles.
+
+En los 3 años que llevo dando clase en una academia de refuerzo escolar han pasado bastantes alumnos con TDAH-I, y siempre me enfoco en una serie de pasos que, realizados correctamente, facilitan y simplifican el proceso de resolución:
+
+- **Primero**: es fundamental leer varias veces (y con detenimiento) el enunciado del problema.
+
+- **Segundo**: es muy importante escribir en una lista los datos aportados por el problema y los datos que pide, para ver de forma clara qué tengo y qué necesito.
+
+- **Tercero**: una vez tengo los datos y lo que me piden bien claro, tengo que pensar cómo hallar la solución del problema. La mayoría de las soluciones se encuentran aplicando varias ecuaciones. Lo importante es saber cuál me va a dar la solución final, escribirla y ver qué datos de la ecuación no sé. 
+
+- **Cuarto**: una vez hecho eso, pienso cómo encontrar el dato que me falta con la información del problema (luego pondré un ejemplo). Escribo aquella ecuación que me dé el dato que quiero y repito los pasos 3 y 4 hasta tener una forma en cadena para hallar los datos que necesito para la ecuación final.
+
+- **Quinto**: paso a paso, voy sacando los datos que necesito, pero siempre que obtengo uno me pregunto si me cuadra (carritos de la compra a la velocidad del sonido no son buenos resultados...).
+
+Para ser capaz de realizar estos pasos es necesario tiempo, pero se consigue que los alumnos interioricen la forma de pensamiento de la ciencia: dividir una problema en otros más sencillos y determinar si el resultado tiene sentido. Es algo que me ha funcionado para cualquier alumno y creo que es fundamental.
+
+### Ejemplo { .unnumbered }
+
+**Se tienen 300 mL de una disolución de ácido nítrico comercial al 96,73% en masa y densidad $d=1,5 g/mL$. ¿Cuántos mL del ácido concentrado serán necesarios para preparar $0,2 L$ de disolución $1,5 M$ de dicho ácido? $Mn(HNO_3)=63g/mol$** 
+
+Una vez leído varias veces paso al segundo punto.
+
+**Segundo punto**
+
+| Dato                      | Valor     |
+|:-------------------------:|:---------:|
+| $V_D$                   	| 300mL   	|
+| $\% masa$               	| 96,73%  	|
+| $d_D$                   	| 1,5g/mL 	|
+| $V_D'$                   	| 0,2L    	|
+| $M'$                    	| 1,5M    	|
+| $Mm(HNO_3)$ 	            | 63g/mol 	|
+| $V_{comercial}$ necesario | ?         |
+
+**Tercer punto**
+
+Para calcular el volumen de la disolución comercial que me piden, primero necesito el número de moles de soluto $n_s'$ que la disolución final va a tener. Como esos moles de soluto corresponden con el número de moles de soluto cogidos de la disolución comercial, $n_s = n_s'$. La molaridad de la disolución final es:
+
+$M'=\frac{n_s'}{V_D'}$
+
+**Cuarto**
+
+Necesito una forma de relacionar los moles de soluto, con el % en masa y la densidad. Yo sé que:
+
+$\% masa = \frac{m_soluto}{m_disolución}\cdot 100 = \frac{m_s}{m_D}\cdot 100$.
+
+También sé que:
+
+$d_D = \frac{m_D}{V_D}$ y que $Mm = \frac{m}{n}$.
+
+Así que, tengo que hacer los siguientes pasos:
+
+- Primero, calculo los moles de soluto de la disolución final.
+
+- Segundo, los uso para la disolución comercial porque es la misma cantidad de moles, y con la fórmula de $Mm$ calculo la masa del soluto que necesito.
+
+- Tercero, uso la masa del soluto para calcular la masa necesaria de la disolución comercial con la fórmula del % en masa.
+
+- Cuarto, calculo el volumen de la disolución comercial que necesito utilizando la fórmula de la densidad.
+
+**Quinto**
+
+$M'=\frac{n_s'}{V_D'};$ $n_s'=M'\cdot V_D'=1,5M\cdot 0,2L= 0,3 \text{ mol de } HNO_3= n_s$
+
+$Mm(HNO_3)=\frac{m_s}{n_s};$ $m_s = Mm(HNO_3) \cdot n_s = 63g/mol \cdot 0,3 mol = 18,9g \text{ de } HNO_3$
+
+$\% masa = \frac{m_s}{m_D} \cdot 100;$ $m_D = \frac{m_s \cdot 100}{\% masa} = 19,54 g \text{ de } HNO_3 \text{ comercial.}$
+
+$d_D = \frac{m_D}{V_D};$ $V_D = \frac{m_D}{d_D} = 13 mL$ del ácido comercial.
+
+*Solución*: $V_D = 13mL$ del ácido comercial.
